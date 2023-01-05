@@ -1,20 +1,26 @@
 .App {
   text-align: center;
+  background-color:#fff;
 }
 
-.App-logo {
-  height: 40vmin;
+.App-head {
+  height: 40vmax;
+  top: 0;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App-logo {
+  height: 50vmin;
+  pointer-events: none;
+  position: absolute;
+  left: 10vmin;
+  bottom: -20vmin;
+  border-radius: 50%;
+  border: 5px solid white;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #fff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,15 +30,120 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App-heading {
+  color: black;
+  font-family: 'Cochin';
+  font-size: 90px;
+  position: relative;
+  left: 120px;
+  bottom: 70px;
+  /*border: 5px solid white;*/
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App-contacts {
+  color: black;
+  font-family: 'Lato';
+  font-size: 20px;
+  position: relative;
+  left: -6px;
+  bottom: 170px;
+
+}
+
+.App-butterfly {
+  height: 27vmin;
+  pointer-events: none;
+  position: absolute;
+  left: 22vmin;
+  bottom: -55vmin;
+  border: 5px solid white;
+}
+
+.App-sovChoice {
+  color: black;
+  font-family: 'Lato';
+  font-size: 20px;
+  position: relative;
+  text-align: left;
+  left: 350px;
+  bottom: 40px;
+  inline-size: 830px;
+
+}
+
+.App-school {
+  height: 40vmin;
+  pointer-events: none;
+  position: absolute;
+  left: 15vmin;
+  bottom: -94vmin;
+}
+
+.App-education-deg {
+  color: black;
+  font-family: 'Lato';
+  font-size: 20px;
+  position: relative;
+  text-align: left;
+  left: 350px;
+  bottom: -10px;
+  inline-size: 600px;
+
+}
+
+.App-education-pgce {
+  color: black;
+  font-family: 'Lato';
+  font-size: 20px;
+  position: relative;
+  text-align: left;
+  left: 350px;
+  bottom: -10px;
+  inline-size: 700px;
+}
+
+.App-education-bootcamp {
+  color: black;
+  font-family: 'Lato';
+  font-size: 20px;
+  position: relative;
+  text-align: left;
+  left: 350px;
+  bottom: -10px;
+  inline-size: 600px;
+}
+
+
+.App-heart {
+  height: 25vmin;
+  pointer-events: none;
+  position: absolute;
+  left: 22vmin;
+  bottom: -115vmin;
+  border: 5px solid white;
+}
+
+.App-hobbies {
+  color: black;
+  font-family: 'Lato';
+  font-size: 20px;
+  position: relative;
+  text-align: left;
+  left: 350px;
+  bottom: -80px;
+  inline-size: 600px;
+
+}
+
+.App-dreams {
+  height: 65vmin;
+  pointer-events: none;
+  position: absolute;
+  left: 100vmin;
+  bottom: -200vmin;
+  border: 5px solid white;
+}
+
+.App-link {
+  color: #61dafb;
 }
